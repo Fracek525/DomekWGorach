@@ -1,0 +1,4 @@
+System operacyjny: Microsoft Windows 10 Home
+Środowiska programistyczne: Visual Studio Code, Android Studio
+Języki programowania: Python, Kotlin
+Emulator systemu mobilnego: Medium Phone API 35

@@ -39,5 +39,9 @@ class MainActivity : AppCompatActivity() {
                 number.text = "${likes} polubień"
             }
         }
+
+        save.setOnClickListener {
+
+        }
     }
 }
