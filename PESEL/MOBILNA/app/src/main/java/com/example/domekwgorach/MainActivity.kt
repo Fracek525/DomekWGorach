@@ -29,5 +29,15 @@ class MainActivity : AppCompatActivity() {
             likes += 1
             number.text = "${likes} polubień"
         }
+
+        delete.setOnClickListener {
+            if (likes == 0) {
+                number.text = "${likes} polubień"
+            }
+            else {
+                likes -= 1
+                number.text = "${likes} polubień"
+            }
+        }
     }
 }
